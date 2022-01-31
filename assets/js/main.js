@@ -6,7 +6,7 @@ window.onload = function() {
       // these IDs from the previous steps
       emailjs.sendForm('service_4cu6raf', 'template_mi7pm37', this)
           .then(function() {
-              alert("sua mensagem foi enviada com sucesso!")
+            openModal('form-feedback');
           }, function(error) {
               console.log('FAILED...', error);
           });

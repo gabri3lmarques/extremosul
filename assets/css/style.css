@@ -66,6 +66,13 @@ img.logo {
   text-decoration: none;
 }
 
+#form-feedback {
+  display: block !important;
+  width: auto;
+}
+
+
+
 
 .menu-wraper ul li a img {
   transition: 300ms;
