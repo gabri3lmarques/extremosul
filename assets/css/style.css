@@ -176,6 +176,9 @@ font-family: 'Gotham', sans-serif;
   flex-direction: column;
 }
 
+#form-feedback img {
+  width: 50%;
+}
 
 .b2-col {
   width: 400px;
