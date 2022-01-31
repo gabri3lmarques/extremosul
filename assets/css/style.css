@@ -66,8 +66,13 @@ img.logo {
   text-decoration: none;
 }
 
-.menu-wraper ul li a:hover {
-text-decoration: underline;
+
+.menu-wraper ul li a img {
+  transition: 300ms;
+}
+
+.menu-wraper ul li a img:hover {
+  transform: scale(1.05);
 }
 
 .top-banner {
