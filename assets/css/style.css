@@ -28,6 +28,14 @@ body {
   margin-left: -21px;
 }
 
+.top-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+}
+
 img.logo {
   width: 220px;
 }
@@ -562,6 +570,9 @@ footer img {
     transform: translateY(-50%);
     left: 15px;
     width: 100px;
+  }
+  .top-arrow {
+    display: block;
   }
 }
 
