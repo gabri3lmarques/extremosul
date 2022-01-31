@@ -66,10 +66,6 @@ img.logo {
   text-decoration: none;
 }
 
-#form-feedback {
-  display: block !important;
-  width: auto;
-}
 
 
 
@@ -174,6 +170,12 @@ font-family: 'Gotham', sans-serif;
   padding-left: 48px;
   position: relative;
 }
+
+#form-feedback {
+  width: auto;
+  flex-direction: column;
+}
+
 
 .b2-col {
   width: 400px;
