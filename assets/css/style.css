@@ -14,18 +14,18 @@ body {
 }
 
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
-  width: 571px;
+  width: 303px;
   background: none;
   box-shadow: none;
 }
 
 .leaflet-container a.leaflet-popup-close-button {
-  top: 30px;
+  top: 19px;
 }
 
 .leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
-  margin-bottom: -16px;
-  margin-left: -21px;
+  margin-bottom: -6px;
+  margin-left: -20px;
 }
 
 .top-arrow {
@@ -144,10 +144,11 @@ font-family: 'Gotham', sans-serif;
   transform: rotate(318deg);
 }
 
-.trhee-cols {
-  background-image: url(../img/prato1.png);
-  background-position: left center;
-  background-repeat: no-repeat;
+.tcols {
+  width: 1412px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .banner-2 {
@@ -530,8 +531,10 @@ footer img {
 
 .prato-1 {
   position: absolute;
-  left: -50px;
-  top: 0;
+  bottom: 52px;
+  left: 0;
+  transform: translateX(-50%);
+  width: 20vw;
 }
 
 .prato-2 {
@@ -556,12 +559,6 @@ footer img {
   }
 }
 
-
-@media only screen and (max-width: 1800px) {
-  .prato-1 {
-    display: none;
-  }
-}
 
 
 @media only screen and (max-width: 800px) {
